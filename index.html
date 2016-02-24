@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="jquery.fullPage.css">
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="skeleton.css">
+		<link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+		<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+		<script src="jquery.fullPage.js"></script>
+		<script src="app.js"></script>
+		<link rel="stylesheet" href="style.css">
+		<title>Rachel Beans</title>
+	</head>
+	
+	<body>
+		<div class="header">
+			<ul class="menu">
+				<li data-menuanchor="About">
+					<a href="#About">About</a>
+				</li>
+				<li data-menuanchor="Projects">
+					<a href="#Projects">Projects</a>
+				</li>
+				<li data-menuanchor="Contact">
+					<a href="#Contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+
+		<div id="fullpage">
+
+			<div class="section " id="section0">
+				<div class="front">
+					<h1>Rachel Williams</h1>
+					<h2>Web Developer</h2>
+					<h3>Seattle, WA</h3>
+				</div>
+			</div>
+
+			<div class="section" id="section1">
+			  <div class="slide" id="slide1">
+					<div class="intro">
+						<h1>Insightful</h1>
+						<p>
+							An app that gives a personality insight based on a text or twitter posts. 
+						</p>
+						<p>
+							Created with PostgresSQL, D3, Ruby on Rails, Watson PI and Twitter APIs.
+						</p>
+						<a target="_blank" class="button button-primary" href="https://insightful-app.herokuapp.com/">View Project</a>
+						<a target="_blank" class="button button-primary" href="https://github.com/raichel81/Insightful">View Code</a>	
+					</div>
+				</div>
+
+			  <div class="slide" id="slide2">
+			  	<div class="intro">
+					<h1>Rod Broker</h1>
+						<p>
+							A site for custom fishing rod builders to 
+						</p>
+						<p>
+							Created with Ruby, and Ruby on Rails.
+						</p>
+						<a target="_blank" class="button button-primary" href="https://rod-client.firebaseapp.com/#/">View Project</a>
+						<a target="_blank" class="button button-primary" href="https://github.com/raichel81/RodBroker">View Code</a>
+					</div>
+				</div>
+
+				<div class="slide" id="slide3">
+					<div class="intro">
+						<h1>Buy Me</h1>
+						<p>
+							A wishlist app that uses the Amazon API.
+						</p>
+						<p>
+							Created with Node.js, Javascript, jQuery, Bootstrap, PostgresSQL and Express.
+						</p>
+						<a target="_blank" class="button button-primary" href="https://github.com/raichel81/BuyMe">View Project</a>
+						<a target="_blank" class="button button-primary" href="https://github.com/raichel81/BuyMe">View Code</a>
+					</div>
+				</div>
+
+				<div class="slide" id="slide4">
+					<div class="intro">
+						<h1>Focus!</h1>
+						<p>
+							A multiplayer reading comprehension game. 
+						</p>
+						<p>
+							Created with CSS, Javascript, JSON and jQuery.
+						</p>
+						<a target="_blank" class="button button-primary" href="http://raichel81.github.io/Focus/">View Project</a>
+						<a target="_blank" class="button button-primary" href="https://github.com/raichel81/Focus">View Code</a>
+					</div>
+				</div>
+
+			</div>
+			<div class="section" id="section2">
+				<div class="intro">
+					<h1>Contact</h1>
+				</div>
+
+				<form action="mailto:rai.chel.ann@gmail.com" method="post" enctype="text/plain">
+				  <div class="row">
+				    <div class="six columns">
+				      <label for="name-input">Name</label>
+				      <input class="u-full-width" type="text" placeholder="Bob Loblaw" id="name-input" name ="name">
+				    </div>
+				    <div class="six columns">
+				      <label for="email-input">Email</label>
+				     	<input class="u-full-width" type="text" placeholder="bob@gmail.com" id="email-input" name="email">
+				    </div>
+				  </div>
+				  <label for="message-input">Message</label>
+				  <textarea class="u-full-width" placeholder="Hi …" id="message-input" name="message"></textarea>
+				  <input class="button-primary" type="submit" value="Submit">
+				</form>
+
+			</div>
+
+		</div>
+
+	</body>
+
+</html>

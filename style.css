@@ -1,0 +1,105 @@
+body {
+	font-family: 'Abril Fatface';
+}
+
+.intro {
+	background-color: rgba(255, 255, 241, 0.4);
+}
+
+ul {
+	list-style: none;
+	float: left;
+	padding-left: 2em;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	padding-right: 3em;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 2em;
+}
+
+.menu {
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+form {
+	width: 40%;
+	padding-left: 30%;
+	margin-top: 5%;
+}
+
+label {
+	font-size: 1.5em;
+}
+
+#section2 h1 {
+	color: black;
+	text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
+}
+
+
+/* Backgrounds will cover all the section
+* --------------------------------------- */
+#section0,
+#section1,
+#section2,
+#slide1,
+#slide2,
+#slide3,
+#slide4{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#section0 {
+	background-image: url(market.jpg);
+	background-position: 90%;
+	opacity: .95;
+	text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
+}
+
+#slide1 {
+	background-image: url(insightful.png);
+}
+
+#slide2 {
+	background-image: url(fishing.jpg);
+}
+
+#slide3 {
+	background-image: url(shopping.jpg);
+}
+
+#slide4 {
+	background-image: url(book.jpg);
+}
+
+/* Centered texts in each section
+* --------------------------------------- */
+.section{
+	text-align:center;
+}
+
+/* Fixed header and footer.
+* --------------------------------------- */
+.header {
+	position:fixed;
+	height: 50px;
+	display:block;
+	width: 100%;
+	/*background: #333;*/
+	z-index:9;
+	text-align:center;
+	color: #f2f2f2;
+	padding: 20px 0 0 0;
+	top:0px;
+}
+
+
+
